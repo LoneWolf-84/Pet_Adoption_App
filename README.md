@@ -1,2 +1,2 @@
-# Pet Adoption App - Flutter
+Pet Adoption App
 
