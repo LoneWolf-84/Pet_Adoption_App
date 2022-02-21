@@ -45,7 +45,7 @@ class _RootAppState extends State<RootApp>  with TickerProviderStateMixin {
       "title" : ""
     },
   ];
-//====== set animation=====
+
   late final AnimationController _controller = AnimationController(
     duration: const Duration(milliseconds: ANIMATED_BODY_MS),
     vsync: this,
@@ -82,8 +82,6 @@ class _RootAppState extends State<RootApp>  with TickerProviderStateMixin {
     });
     _controller.forward();
   }
-
-//====== end set animation=====
 
   @override
   Widget build(BuildContext context) {
